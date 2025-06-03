@@ -1,0 +1,19 @@
+{
+  "name": "minimalistic-reader",
+  "version": "1.0.0",
+  "description": "A minimalistic reader which displays the pasted text, built with electron.",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "electron": "^36.3.2",
+    "electron-builder": "^26.0.12"
+  }
+}
