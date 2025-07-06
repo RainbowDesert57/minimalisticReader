@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Minimalistic Reader</title>
+  </head>
+  <body>
+    <div id="backgroundBlur"></div>
+    <img src="/BG19.jpg" alt="background" id="background" />
+    <div id="titlebar">
+      <div id="close" class="button"></div>
+      <div id="minimize" class="button"></div>
+      <div id="maximize" class="button"></div>
+      <div id="titleText">Minimalistic Reader</div>
+    </div>
+    <button id="openTextPopup">TEXT SUBMISSION</button>
+    <div id="textPopupBox">
+      <h2 id="popupBoxTitle">Text Submission</h2>
+      <textarea name="submittedText" id="submittedText"></textarea>
+      <button id="submitTextButton">SUBMIT</button>
+    </div>
+    <div id="mainText"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
