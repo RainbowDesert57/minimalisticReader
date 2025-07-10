@@ -11,11 +11,6 @@ const textInput = document.getElementById('submittedText');
 // NOTE: Scroll animation
   // observers and starts if any changes related to 'div' are detected
   // Set up observer
-window.addEventListener('DOMContentLoaded', () => {
-    if (window.electronAPI?.isLinux) {
-    document.body.classList.add('isLinux');
-  }
-}
 const observer = new IntersectionObserver((entries) => {
   entries.forEach(entry => {
     if (entry.isIntersecting) {
